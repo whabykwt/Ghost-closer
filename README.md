@@ -1,4 +1,4 @@
-# 👻 Ghost Closer — Launch Guide
+# 👻 Ghost Closer — Launch Guide 
 
 Dead lead revival engine for car dealerships.
 Built with React + Supabase + Claude AI.
