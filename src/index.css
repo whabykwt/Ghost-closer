@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=DM+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Syne', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fff;
+  color: #1a1a1a;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+button:hover { opacity: 0.9; }
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #1a1a2e !important;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #e0e0e0; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #ccc; }
